@@ -59,7 +59,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </platform>
 
     <platform name="android">
-        <preference name="ANDROID_FIREBASE_CRASHLYTICS_VERSION" default="18.0.+"/>
+        <preference name="ANDROID_FIREBASE_CRASHLYTICS_VERSION" default="18.1.+"/>
 
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="FirebaseCrash">
